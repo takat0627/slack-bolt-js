@@ -1,6 +1,10 @@
 # secret files
 secret*
 
+# node
+package-lock.json
+node_modules/
+
 # for vscode
 .vscode
 .env
