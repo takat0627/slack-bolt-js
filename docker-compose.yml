@@ -2,10 +2,9 @@ version: '3'
 services:
   slackbot.compose:
     build: .
-    image: node-dev:1.0
     tty: true
     volumes:
-      - $PWD/node:/app
+      - $PWD/app:/app
     environment:
       - SLACK_CHANNEL
       - SLACK_BOT_TOKEN
