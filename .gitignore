@@ -1,0 +1,13 @@
+# secret files
+secret*
+
+# for vscode
+.vscode
+.env
+
+# for mac
+/**/.DS_Store
+
+# test files
+/**/*sample*
+/**/*test*

@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@slack/bolt": "^3.3.0",
+    "jsx-slack": "^4.0.0"
+  },
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "fmt": "./node_modules/.bin/prettier --write **/*.{js,json}",
+    "build": "./node_modules/.bin/eslint **.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Naoki Takashima",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.3.0"
+  }
+}
